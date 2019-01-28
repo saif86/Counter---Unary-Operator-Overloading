@@ -9,7 +9,7 @@ Define a class Counter having data member mCount (int), mSerialNo (int) (add any
   * Define the ++ unary operator that should increment value of count to 1. For example, for the code:
     ```
     counter c1,c2;
-    c1++;
+    ++c1;
     ```
     c1 should have mCount = 1, mSerialNo = 1, c2 should have mCount = 0, mSerialNo = 2. 
     (define only the increment operator, no need to define the postfix and prefix operators)
