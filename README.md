@@ -16,5 +16,5 @@ Define a class Counter having data member mCount (int), mSerialNo (int) (add any
   * Define –(negation) unary operator that inverts the value of object for counter class and should allow the statements like 
     ```
     c1 = -c1; // or 
-    c2= - c1;
+    c2 = - c1;
     ```
