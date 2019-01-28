@@ -14,6 +14,5 @@ Define a class Counter having data member mCount (int), mSerialNo (int) (add any
     c1 should have mCount = 1, mSerialNo = 1, c2 should have mCount = 0, mSerialNo = 2. 
     (define only the increment operator, no need to define the postfix and prefix operators)
   * Define –(negation) unary operator that inverts the value of object for counter class and should allow the statements like 
-    ```c1 = -c1; // or 
-    c2= - c1;
+    ```c1 = -c1; or c2= - c1;
     ```
