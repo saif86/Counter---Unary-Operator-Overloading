@@ -8,7 +8,7 @@ using namespace std;
 //============================= LIFECYCLE ====================================
 
 // Counter Default + Overloaded Constructor
-Counter::Counter(int aCount) : mSerialNo(Counter::sGetTotalCounters()), mCount(aCount) {
+Counter::Counter(int aCount) : mSerialNo(Counter::sGetTotalCounters()+1), mCount(aCount) {
 	this->SetCounter(aCount);
 	Counter::msNoOfCounters++;
 }
